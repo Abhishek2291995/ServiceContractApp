@@ -33,7 +33,7 @@ It provides functionality to associate contract workers with specific service co
 ### Usage
 
 1. Start the Docker container: `docker run -d -p 8080:8080 service-contract-app`
-2. Open your web browser and access the health check endpoint : [http://localhost:8080/healtcheck](http://localhost:8080/healthcheck)
+2. Open your web browser and access the health check endpoint : [http://localhost:8080/healtcheck/](http://localhost:8080/healthcheck/)
 
 ## API Endpoints
 
@@ -42,7 +42,7 @@ The following API endpoints are available:
 - `POST /contract-mappings/onBoard`: Onboard a contract worker to a service contract.
 - `POST /contract-mappings/offBoard`: Offboard a contract worker from a service contract.
 
-For detailed information on request and response formats, refer to the Swagger documentation.
+For detailed information on request and response formats, refer postman collection documentation
 
 ## Contributing
 
