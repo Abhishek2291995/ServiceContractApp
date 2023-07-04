@@ -28,11 +28,11 @@ It provides functionality to associate contract workers with specific service co
 1. Clone the repository: `git clone https://github.com/Abhishek2291995/ServiceContractApp.git`
 2. Navigate to the project directory: `cd ServiceContractApp`
 3. Build the project: `mvn clean install`
-4. Build the Docker image: `docker build -t ServiceContractApp .`
+4. Build the Docker image: `docker build -t service-contract-app .`
 
 ### Usage
 
-1. Start the Docker container: `docker run -d -p 8080:8080 ServiceContractApp`
+1. Start the Docker container: `docker run -d -p 8080:8080 service-contract-app`
 2. Open your web browser and access the health check endpoint : [http://localhost:8080/healtcheck](http://localhost:8080/healthcheck)
 
 ## API Endpoints
